@@ -1,0 +1,21 @@
+.root
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1, h2 {
+    text-align: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.menu {
+    margin-top: 20px;
+}
